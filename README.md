@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="icons/icon-192.png" width="120" alt="LAST LIGHT icon">
+  <img src="icon-192.png" width="120" alt="LAST LIGHT icon">
 </p>
 
 <h1 align="center">LAST LIGHT</h1>
@@ -109,7 +109,7 @@ It runs on desktop and mobile, installs as a PWA, and is built to be wrapped wit
 index.html              the whole game (HTML + CSS + JS)
 manifest.webmanifest    PWA manifest
 sw.js                   service worker (network-first)
-icons/                  app icons 180 / 192 / 512
+icon-*.png              app icons 180 / 192 / 512
 screenshots/            images used in this README
 ```
 
@@ -143,7 +143,7 @@ The game uses relative paths only, so it can be dropped straight into a Capacito
 npm init -y
 npm install @capacitor/core @capacitor/cli @capacitor/android
 npx cap init "Last Light" com.gnavos.lastlight --web-dir www
-# copy index.html, manifest.webmanifest, sw.js and icons/ into www/
+# copy index.html, manifest.webmanifest, sw.js and the icon-*.png files into www/
 npx cap add android
 npx cap open android
 ```
