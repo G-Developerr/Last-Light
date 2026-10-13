@@ -1,10 +1,45 @@
-# LAST LIGHT
+<p align="center">
+  <img src="icons/icon-192.png" width="120" alt="LAST LIGHT icon">
+</p>
 
-**Hold the light until dawn.**
+<h1 align="center">LAST LIGHT</h1>
+
+<p align="center"><b>Hold the light until dawn.</b></p>
+
+<p align="center">
+  <a href="https://last-light-aahk.onrender.com/"><img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-last--light--aahk.onrender.com-c2561a?style=for-the-badge" alt="Play now"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Canvas-e34f26?style=flat-square" alt="HTML5 Canvas">
+  <img src="https://img.shields.io/badge/JavaScript-Vanilla-f7df1e?style=flat-square" alt="Vanilla JS">
+  <img src="https://img.shields.io/badge/Web%20Audio-API-6a5acd?style=flat-square" alt="Web Audio">
+  <img src="https://img.shields.io/badge/PWA-ready-5a0fc8?style=flat-square" alt="PWA">
+  <img src="https://img.shields.io/badge/lang-EN%20%7C%20EL-2b7a78?style=flat-square" alt="English and Greek">
+</p>
 
 LAST LIGHT is a dark fantasy survivor game for the browser. You are alone in an endless night with nothing but a lantern, and hundreds of monsters are closing in from every direction. You only move. Your weapons fire on their own. Kill, collect experience crystals, level up, pick your blessings, and try to stay alive for 20 minutes, until the sun comes up.
 
 It runs on desktop and mobile, installs as a PWA, and is built to be wrapped with Capacitor for Google Play.
+
+**Play it here: [last-light-aahk.onrender.com](https://last-light-aahk.onrender.com/)**. No download or sign-up needed. On a phone, use *Add to Home Screen* to install it like an app and play fullscreen.
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/03-gameplay-forest.png" width="49%" alt="Gameplay in the Haunted Forest">
+  <img src="screenshots/16-snow-boss-enraged.png" width="49%" alt="The White Alpha boss enraged">
+</p>
+<p align="center">
+  <img src="screenshots/15-crypt-legion.png" width="49%" alt="Shadow Legion in the Crypt">
+  <img src="screenshots/18-evolution.png" width="49%" alt="Weapon evolution">
+</p>
+<p align="center">
+  <img src="screenshots/19-preparation.png" width="49%" alt="Difficulty, mode and Arcana selection">
+  <img src="screenshots/23-mobile-buttons.png" width="49%" alt="Mobile controls">
+</p>
 
 ---
 
@@ -75,7 +110,12 @@ index.html              the whole game (HTML + CSS + JS)
 manifest.webmanifest    PWA manifest
 sw.js                   service worker (network-first)
 icons/                  app icons 180 / 192 / 512
+screenshots/            images used in this README
 ```
+
+## Live demo
+
+The game is hosted as a static site on Render: **https://last-light-aahk.onrender.com/**
 
 ## Running locally
 
@@ -112,4 +152,9 @@ Lock the activity to landscape in `AndroidManifest.xml` (`android:screenOrientat
 
 ---
 
-Made by **G-navos Developer**: [Instagram @mhtsos_tzinavos](https://www.instagram.com/mhtsos_tzinavos/) · [GitHub @G-Developerr](https://github.com/G-Developerr)
+<p align="center">
+  Made by <b>G-navos Developer</b><br>
+  <a href="https://last-light-aahk.onrender.com/">Play LAST LIGHT</a> ·
+  <a href="https://www.instagram.com/mhtsos_tzinavos/">Instagram @mhtsos_tzinavos</a> ·
+  <a href="https://github.com/G-Developerr">GitHub @G-Developerr</a>
+</p>
